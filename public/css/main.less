@@ -3,6 +3,9 @@
 @import "vendor/bootstrap-social";
 @import "themes/default";
 
+@primary: #4d90fc;
+@gray-light: #e0e0e0;
+
 // Scaffolding
 // -------------------------
 
@@ -27,6 +30,35 @@ footer {
   ul {
     margin-bottom: 0;
   }
+}
+
+.announcement {
+  padding-top: 80px;
+  padding-bottom : 80px;
+  font-style: italic;
+}
+
+.projectHeader {
+  border-bottom: 1px solid @gray-light;
+  margin-bottom: 20px;
+}
+
+.projectSection {
+  margin-bottom: 50px;
+}
+
+a > #Example {
+  color: @gray-light;
+}
+
+#Example {
+  margin-top: 50px;
+  background-color: @primary;
+  color : white;
+}
+
+.projectImage {
+  max-width: 70%;
 }
 
 // Navbar
